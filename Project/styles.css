@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: kumbh Sans, sans-serif;
+}
+
+body {
+  background: #19a2ae;
+}
+body .container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+@media (max-width: 375px) {
+  body .container {
+    padding: 25px;
+  }
+}
+body .container .circle-1, body .container .circle-2 {
+  position: absolute;
+  width: 1000px;
+}
+@media (max-width: 375px) {
+  body .container .circle-1, body .container .circle-2 {
+    width: 590px;
+  }
+}
+body .container .circle-1 {
+  top: -350px;
+  left: -350px;
+}
+body .container .circle-2 {
+  right: -350px;
+  bottom: -350px;
+}
+body .container .header {
+  background-image: url(/images/bg-pattern-card.svg);
+  background-size: cover;
+  height: 140px;
+  width: auto;
+}
+body .container .card {
+  text-align: center;
+  overflow: hidden;
+  width: 350px;
+  height: auto;
+  border-radius: 5%;
+  background-color: #fff;
+  position: relative;
+}
+body .container .card .name-profile {
+  height: 70px;
+  width: 100%;
+}
+body .container .card .name-profile img {
+  margin: -50px auto 25px auto;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+body .container .card .name-description {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+body .container .card .name-description span {
+  color: #777;
+  font-weight: 500;
+  padding-left: 5px;
+}
+body .container .card .name-description h1 {
+  display: block;
+  font-weight: 900;
+  color: #2d3248;
+}
+body .container .card .name-description h2 {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+  font-weight: lighter;
+}
+body .container .card .stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  padding: 25px;
+  padding-top: 35px;
+  width: 100%;
+  margin-top: 25px;
+  border-top: 1px solid #eee;
+  color: #2d3248;
+}
+body .container .card .stats .followers h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+body .container .card .stats .followers h4 {
+  font-size: 12px;
+  color: #777;
+  font-weight: lighter;
+}
+body .container .card .stats .likes h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+body .container .card .stats .likes h4 {
+  font-size: 12px;
+  color: #777;
+  font-weight: lighter;
+}
+body .container .card .stats .photos h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+body .container .card .stats .photos h4 {
+  font-size: 12px;
+  color: #777;
+  font-weight: lighter;
+}
+
+/*# sourceMappingURL=styles.css.map */
